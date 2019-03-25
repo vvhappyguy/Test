@@ -6,3 +6,4 @@ An Interrupt Request Level (IRQL) is a hardware independent means with which Win
 Windows maps not only hardware interrupt levels to its internal interrupt table, but also maps software interrupts. The mappings in this table are called Interrupt Request Levels, or IRQLs, and a separate IRQL is kept for each processor in a multiprocessor system. The IRQL values are specific to the x86, IA64 and AMD64 processor architectures that Windows can run on, though theoretically they can support other CPUs that use a similar interrupt scheme (such as the DEC Alpha and MIPS, which were supported briefly on early versions of Windows). What this essentially means is that APCs (Asynchronous procedure calls), user threads and kernel mode operations can be interrupted and the system must run them at an IRQL lower than the thread scheduler (or "dispatcher").[2] 
 
 https://en.wikipedia.org/wiki/IRQL_(Windows)
+А на русском можно - ничего же не понятно
